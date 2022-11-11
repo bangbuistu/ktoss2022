@@ -19,7 +19,11 @@ int main()
 	3/ Viet ham main de goi ham tren
 	4/ Tron nhanh m??_moi vao nhanh m??
 	*/
-
+	float a;
+	cout<<"nhap canh hinh chu nhat"<< endl;
+	cin>> a;
+	 float chuvi=chuViHinhTron(a);
+	 cout<<"chu vi hinh tron"<< chuvi;
 	system("pause");
 	return 0;
 }
