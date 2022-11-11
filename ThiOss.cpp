@@ -13,12 +13,14 @@ void tamGiac(float a, float b, float c)
 	else
 		cout << "tam giac thuong";
 }
+//Ham tinh dien tich tam giac
 float dientich(float a, float b, float c) {
     float p = (a + b + c) / 2.0;
     return sqrt(p*(p - a)*(p - b)*(p - c));
 }
 int main()
 {
+	//Ham main
 	float a, b, c;
     cout << "Nhap canh a: ";
     cin >> a;
