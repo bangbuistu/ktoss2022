@@ -22,6 +22,14 @@ float dienTichHinhVuong(float canh) {
 	}
 	return canh * canh;
 }
+float chuViHinhVuong(float canh) {
+	if (canh < 0)
+	{
+		cout << "Canh hinh vuong phai lon hon 0";
+		return 0;
+	}
+	return canh * 4 ;
+}
 int main()
 {
 	/*
@@ -36,6 +44,7 @@ int main()
 	cout<<"Canh hinh vuong: ";
 	cin>>n;
 	dienTichHinhVuong(n);
+	chuViHinhVuong(n);
 	system("pause");
 	return 0;
 }
