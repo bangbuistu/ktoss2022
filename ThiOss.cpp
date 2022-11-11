@@ -12,6 +12,19 @@ float chuViTamGiac(float a, float b, float c) {
 }
 int main()
 {
+	float a, b, c;
+    cout << "Nhap canh a: ";
+    cin >> a;
+    cout << "Nhap canh b: ";
+    cin >> b;
+    cout << "Nhap canh c: ";
+    cin >> c;
+    if (a >= b + c || b >= a + c || c >= a + b)
+        cout << "Ba canh vua nhap khong phai la canh cua tam giac";
+    else {
+        
+        cout << "Dien tich cua tam giac la: " << dientich(a, b, c)<<endl;
+    }
 	/*
 	De thi:
 	1/ Ham chuViTamGiac tren co loi khong?
