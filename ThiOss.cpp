@@ -16,6 +16,19 @@ float dienTichTamGiac(float a, float b, float c) {
 
 	return sqrt(p*(p-a)*(p-b)*(p-c));
 }
+float tinhChuVi(float a, float b, float c){
+	if (a <= 0 || b <= 0 || c <= 0)
+	{
+		cout << "Canh tam giac phai lon hon 0";
+		return 0;
+	}
+	if((a+b>c)||(a+c>b)||(b+c)>a){
+		cout << "Day khong phai la ba canh mot tam giac";
+		return 0;
+	}
+	float chuVi=a+b+C;
+	return chuVi;
+}
 int main()
 {
 	/*
