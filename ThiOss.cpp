@@ -15,6 +15,7 @@ int main()
 	/*
 	De thi:
 	1/ Ham dienTichHinhChuNhat tren co loi khong?
+	-Không có lỗi nhưng chưa gọi hàm qua hàm main không chay được hàm dienTichChuNhat
 	Neu co thi hay tao ra 1 ban sao cua nhanh ban dang lam co ten la m??_moi de fix loi
 	2/ Neu ham dienTichHinhChuNhat  tren co loi thi hay tao ra nhanh moi co ten la m??_moi de xay dung them chuc nang tinh chu vi hinh chu nhat
 	3/ Viet ham main de goi ham tren
