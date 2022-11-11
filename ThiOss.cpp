@@ -1,6 +1,7 @@
 
 #include <iostream>
 using namespace std;
+//Luong Thanh Cong
 //Ham tinh chu vi tam giac khi biet 3 canh
 float chuViTamGiac(float a, float b, float c) {
 	if (a <= 0 || b <= 0 || c <= 0)
