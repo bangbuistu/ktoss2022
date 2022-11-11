@@ -20,6 +20,17 @@ int main()
 	3/ Viet ham main de goi ham tren																																																																																																																																																																																								
 	4/ Tron nhanh m??_moi vao nhanh m??
 	*/
+
+	//goi ham chu vi hinh chu nha
+	float dai;
+	float rong;
+	cout<< "nhap chieu dai= ";
+	cout >> dai;
+	cout<< "nhap chieu rong= ";
+	cout >> rong;
+	float chuvi = chuViHinhChuNhat(dai,rong);
+	cout << "Chu vio hinh chu nhat la: "<<chuvi;
+
 	
 	system("pause");
 	return 0;
