@@ -10,6 +10,9 @@ float chuViHinhChuNhat(float dai, float rong) {
 	}
 	return (dai+rong)*2;
 }
+float dienTichHinhChuNhat(float dai, float rong){
+	return dai*rong;
+}
 int main()
 {
 	/*
@@ -28,8 +31,10 @@ int main()
 	cout >> dai;
 	cout<< "nhap chieu rong= ";
 	cout >> rong;
+	float dientich = dienTichHinhChuNhat(dai,rong);
 	float chuvi = chuViHinhChuNhat(dai,rong);
-	cout << "Chu vio hinh chu nhat la: "<<chuvi;
+	cout << "Chu vi hinh chu nhat la: "<<chuvi;
+	cout << "Dien tich hinh chu nhat la: "<<dientich;
 
 	
 	system("pause");
