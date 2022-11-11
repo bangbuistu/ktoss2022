@@ -1,6 +1,7 @@
 
 #include <iostream>
 using namespace std;
+//Dinh Thi Kim Ngan
 //Ham tinh chu vi hinh chu nhat
 float chuViHinhChuNhat(float dai, float rong) {
 	if (dai <= 0 || rong <= 0)
