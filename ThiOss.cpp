@@ -10,6 +10,14 @@ float dienTichHinhVuong(float canh) {
 	}
 	return canh * 4;
 }
+float chuViHinhVuong(float canh) {
+	if (canh < 0)
+	{
+		cout << "Canh hinh vuong phai lon hon 0";
+		return 0;
+	}
+	return canh * 4;
+}
 int main()
 {
 	/*
@@ -20,7 +28,10 @@ int main()
 	3/ Viet ham main de goi ham tren
 	4/ Tron nhanh m??_moi vao nhanh m??
 	*/
-
+	float n;
+	cout<<"Nhap n";
+	cin>>n;
+	chuViHinhVuong(n);
 	system("pause");
 	return 0;
 }
