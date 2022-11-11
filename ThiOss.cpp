@@ -19,14 +19,6 @@ float dientich(float a, float b, float c) {
 }
 int main()
 {
-	/*
-	De thi:
-	1/ Ham tamGiac tren co loi khong?
-	Neu co thi hay tao ra 1 ban sao cua nhanh ban dang lam co ten la m??_moi de fix loi
-	2/ Neu ham tamGiac khong co loi thi hay tao ra nhanh moi co ten la m??_moi de xay dung them chuc nang tinh dien tich tam giac
-	3/ Viet ham main de goi ham cac tren
-	4/ Tron nhanh m??_moi vao nhanh m??
-	*/
 	float a, b, c;
     cout << "Nhap canh a: ";
     cin >> a;
