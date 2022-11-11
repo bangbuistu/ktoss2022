@@ -1,6 +1,7 @@
 
 #include <iostream>
 using namespace std;
+//Nguyen Quoc huy 09
 //Ham tinh dien tich  hinh vuong
 float dienTichHinhVuong(float canh) {
 	if (canh < 0)
