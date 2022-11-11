@@ -1,6 +1,7 @@
 
 #include <iostream>
 using namespace std;
+//Nguyen Dai Duong
 //Ham cho biet la tam giac gi
 void tamGiac(float a, float b, float c)
 {
