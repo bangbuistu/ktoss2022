@@ -25,8 +25,6 @@ int main()
 	2/ Neu ham dienTichTamGiac tren co loi thi hay tao ra nhanh moi co ten la m??_moi de xay dung them chuc nang tinh chu vi tam giac
 	3/ Tron nhanh m??_moi vao nhanh m??
 	*/
-	cout << dienTichTamGiac(1,2,3);
-	cout << dienTichTamGiac(0,2,3);
 	system("pause");
 	return 0;
 }
