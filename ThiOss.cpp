@@ -3,7 +3,7 @@
 using namespace std;
 //Ham tinh dien tich  hinh vuong
 float dienTichHinhVuong(float canh) {
-	if (canh <= 0)
+	if (canh < 0)
 	{
 		cout << "Canh hinh vuong phai lon hon 0";
 		return 0;
@@ -20,7 +20,10 @@ int main()
 	3/ Viet ham main de goi ham tren
 	4/ Tron nhanh m??_moi vao nhanh m??
 	*/
-
+	int n;
+	cout<<"Canh hinh vuong: ";
+	cin>>n;
+	dienTichHinhVuong(n);
 	system("pause");
 	return 0;
 }
