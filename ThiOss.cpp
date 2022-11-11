@@ -8,7 +8,7 @@ float dienTichHinhVuong(float canh) {
 		cout << "Canh hinh vuong phai lon hon 0";
 		return 0;
 	}
-	return canh * 4;
+	return canh * canh;
 }
 int main()
 {
