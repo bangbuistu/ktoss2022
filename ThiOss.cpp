@@ -1,6 +1,7 @@
 
 #include <iostream>
 using namespace std;
+//Tran Minh Khang
 //Ham tinh dien tich tam giac khi biet 3 canh
 float dienTichTamGiac(float a, float b, float c) {
 	if (a <= 0 || b <= 0 || c <= 0)
