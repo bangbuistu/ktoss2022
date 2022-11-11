@@ -4,6 +4,17 @@ using namespace std;
 //Ham tinh dien tich  hinh vuong
 float dienTichHinhVuong(float canh) {
 	if (canh < 0)
+<<<<<<< HEAD
+=======
+	{
+		cout << "Canh hinh vuong phai lon hon 0";
+		return 0;
+	}
+	return canh * 4;
+}
+float dienTichHinhVuong(float canh) {
+	if (canh < 0)
+>>>>>>> m28_moi1
 	{
 		cout << "Canh hinh vuong phai lon hon 0";
 		return 0;
