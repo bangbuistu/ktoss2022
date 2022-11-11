@@ -17,6 +17,7 @@ int main()
 	/*
 	De thi:
 	1/ Ham dienTichTamGiac tren co loi khong?
+	-Co
 	Neu co thi hay tao ra 1 ban sao cua nhanh ban dang lam co ten la m??_moi de fix loi
 	2/ Neu ham dienTichTamGiac tren co loi thi hay tao ra nhanh moi co ten la m??_moi de xay dung them chuc nang tinh chu vi tam giac
 	3/ Tron nhanh m??_moi vao nhanh m??
