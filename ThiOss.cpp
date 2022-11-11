@@ -1,6 +1,7 @@
 
 #include <iostream>
 using namespace std;
+//Vo Huynh An
 //Ham giai phuong trinh bac 1
 bool pt1(float a, float b, float &nghiem)
 {
