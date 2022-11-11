@@ -2,19 +2,6 @@
 #include <iostream>
 using namespace std;
 
-bool kiemTra(int a, int b, int c){
-    if((a+b > c) &&  (a + c > b) && (c + b > a)){
-        return true;
-    }
-    return false;
-}
-
-//Hàm tính chu vi
-int tinhChuVi(int a, int b, int c)
-{
-  return a+b+c;
-}
-
 //Ham tinh dien tich tam giac khi biet 3 canh
 float dienTichTamGiac(float a, float b, float c) {
 	if (a <= 0 || b <= 0 || c <= 0)
@@ -45,7 +32,6 @@ int main()
     cin >> b;
     cout << "Nhap canh c: ";
     cin >> c;
-	cout<< "Chu vi cua tam giac la: " << tinhChuVi(a,b,c)<<endl;
     cout << "Dien tich cua tam giac la: " << dienTichTamGiac(a, b, c)<<endl;
 	system("pause");
 	return 0;
