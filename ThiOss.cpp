@@ -33,6 +33,7 @@ int main()
 	cin >> n;
 	float chuVi = chuViHinhTron(n);
 	cout << chuVi;
+	cout<<dienTichHinhTron(2) <<endl;
 	system("pause");
 	return 0;
 }
