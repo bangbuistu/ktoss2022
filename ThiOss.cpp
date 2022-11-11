@@ -1,6 +1,7 @@
 
 #include <iostream>
 using namespace std;
+//Nguyen Van Thanh Duc
 //Ham tinh dien tich hinh tron
 float dienTichHinhTron(float banKinh) {
 	if (banKinh <= 0)
