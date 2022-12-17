@@ -1,41 +1,36 @@
 
 #include <iostream>
 using namespace std;
-//Ham tinh chu vi hinh vuong
-float chuViHinhVuong(float canh) {
-	if (canh <= 0)
+//Ham tinh dien tich hinh chu nhat
+float dienTichHinhChuNhat(float dai, float rong) {
+	if (dai <= 0 || rong <= 0)
 	{
-		cout << "Canh hinh vuong phai lon hon 0";
+		cout << "Canh hinh chu nhat phai lon hon 0";
 		return 0;
 	}
-	return canh * 4;
+	return (dai * rong) ;
 }
-float dienTichHinhVuong(float canh){
-	if (canh <=0 )
+float chuViHinhChuNhat(float dai, float rong) {
+	if (dai <= 0 || rong <= 0)
 	{
-		cout<<"Canh hinh vuong phai lon hon 0";
+		cout << "Canh hinh chu nhat phai lon hon 0";
 		return 0;
 	}
-	return canh*canh;
+	return ((dai+rong)*2) ;
 }
+
 int main()
 {
 	/*
 	De thi:
-	1/ Ham chuViHinhVuong tren co loi khong?
-	TL: Ham khong co loi
+	1/ Ham dienTichHinhChuNhat tren co loi khong? 
+	Hàm dienTichHinhChuNhat trên không có lỗi
 	Neu co thi hay tao ra 1 ban sao cua nhanh ban dang lam co ten la m??_moi de fix loi
-	2/ Neu ham chuViHinhVuong tren co loi thi hay tao ra nhanh moi co ten la m??_moi de xay dung them chuc nang tinh dien tich hinh vuong
-	TL: Ham khong co loi
-		Bonus luon ham tinh dien tich =]]
+	2/ Neu ham dienTichHinhChuNhat  tren co loi thi hay tao ra nhanh moi co ten la m??_moi de xay dung them chuc nang tinh chu vi hinh chu nhat
 	3/ Viet ham main de goi ham tren
 	4/ Tron nhanh m??_moi vao nhanh m??
 	*/
-	float a;
-	cout<<"Nhap canh hinh vuong:"<<endl;
-	cin>> a;
-	cout<<"Chu vi hinh vuonng :"<<chuViHinhVuong(a)<<endl;
-	cout<<"Dien tich hinh vuonng :"<<dienTichHinhVuong(a)<<endl;
+
 	system("pause");
 	return 0;
 }
