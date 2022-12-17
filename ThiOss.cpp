@@ -29,6 +29,7 @@ int main()
 	
 	3/ Tron nhanh m??_moi vao nhanh m??
 	*/
+	//TRẢ LỜI: trọn nhánh luan vào nhánh m05
 	
 	float a,b,c;
 	cout<<" nhap canh: ";
