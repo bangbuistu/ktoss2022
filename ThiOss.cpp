@@ -26,7 +26,7 @@ int main()
 	TL: Ham chu vi hinh vuong khong co loi
 	Neu co thi hay tao ra 1 ban sao cua nhanh ban dang lam co ten la m??_moi de fix loi
 	2/ Neu ham chuViHinhVuong tren co loi thi hay tao ra nhanh moi co ten la m??_moi de xay dung them chuc nang tinh dien tich hinh vuong
-	TL: Ham khong co loi
+	TL: Ham khong chu vi co loi
 		Bonus luon ham tinh dien tich =]]
 	3/ Viet ham main de goi ham tren
 	4/ Tron nhanh m??_moi vao nhanh m??
